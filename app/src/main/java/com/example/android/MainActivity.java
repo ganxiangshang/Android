@@ -17,6 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView(){
         text = findViewById(R.id.text);
+
+        text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
 
