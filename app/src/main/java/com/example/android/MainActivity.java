@@ -3,11 +3,11 @@ package com.example.android;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView text_android;
+    private View text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView(){
-        text_android = ((TextView) findViewById(R.id.test_android));
+        text = findViewById(R.id.text);
     }
+
 
 }
