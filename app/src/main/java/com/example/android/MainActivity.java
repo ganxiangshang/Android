@@ -45,10 +45,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this, "点击事件", Toast.LENGTH_SHORT).show();
             }
         });
-
-
     }
 
+    /**
+     * 我是注释
+     * @param v
+     */
 
     @Override
     public void onClick(View v) {
