@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private View text;
@@ -62,10 +64,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     private void initData(){
 
+        // 我是master数据
+        ArrayList<String> strings = new ArrayList<>();
+        for (int i = 0; i < 10; i++){
+            strings.add(i + "我是master数据");
+        }
     }
 
-    @Override
-    public void onClick(View v) {
-
-    }
 }
