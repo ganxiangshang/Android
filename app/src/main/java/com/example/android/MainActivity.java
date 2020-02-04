@@ -64,10 +64,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     private void initData(){
 
-        // 我是远程
+        // 我是dev数据
         ArrayList<String> strings = new ArrayList<>();
         for (int i = 0; i < 10; i++){
-            strings.add(i + "我是远程数据");
+            strings.add(i + "我是dev数据");
         }
 
     }
