@@ -56,4 +56,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
     }
+
+    /**
+     * 初始化数据
+     */
+    private void initData(){
+
+    }
+
 }
