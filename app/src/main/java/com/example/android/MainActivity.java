@@ -31,6 +31,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         text.setBackgroundColor(Color.RED);
     }
 
+    /**
+     * 点击事件
+     */
+    private void initEvent(){
+
+    }
 
     @Override
     public void onClick(View v) {
