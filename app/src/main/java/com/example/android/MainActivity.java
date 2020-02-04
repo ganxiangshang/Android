@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initView();
+        initEvent();
     }
 
     private void initView(){
@@ -29,9 +32,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         text.setBackgroundColor(Color.RED);
+    }
+
+    /**
+     * 点击事件
+     */
+    private void initEvent(){
+
+        text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "点击事件", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    /**
+     * 我是注释
+     * @param v
+     */
+
+    @Override
+    public void onClick(View v) {
 
     }
 
+    /**
+     * 初始化数据
+     */
+    private void initData(){
+
+    }
 
     @Override
     public void onClick(View v) {
