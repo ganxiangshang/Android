@@ -71,9 +71,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         // 我是dev数据 新加入
-        ArrayList<String> stringArrayList = new ArrayList<>();
+        ArrayList<String> stringArray = new ArrayList<>();
         for (int i = 0; i < 10; i++){
-            stringArrayList.add(i + "我是dev数据");
+            stringArray.add(i + "我是dev数据");
         }
 
         //查看冲突
