@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             stringArrayList.add(i + "我是master数据");
         }
 
+
+
     }
 
 }
