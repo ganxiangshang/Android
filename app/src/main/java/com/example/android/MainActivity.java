@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             strings.add(i + "我是master数据");
         }
 
-        // 我是dev数据 新加入
+        // 我是dev数 据 新加入
         ArrayList<String> stringArrayList = new ArrayList<>();
         for (int i = 0; i < 10; i++){
             stringArrayList.add(i + "我是master数据");
