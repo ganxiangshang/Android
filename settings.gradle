@@ -1,2 +1,2 @@
-include ':app', ':java_module'
+include ':app', ':java_module', ':android_lib'
 rootProject.name='Android'
