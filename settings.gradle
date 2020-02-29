@@ -1,2 +1,2 @@
-include ':app', ':java_module', ':android_lib'
+include ':app', ':java_module', ':android_lib', ':eventbus_annotation', ':eventbus_compiler', ':eventbus', ':customeeventbus'
 rootProject.name='Android'
