@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         initView();
         initEvent();
+
     }
 
     private void initView(){
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         text.setBackgroundColor(Color.RED);
+
+
+
     }
 
     /**
