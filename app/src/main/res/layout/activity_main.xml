@@ -9,6 +9,36 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:textSize="@dimen/dp_16" />
+
+    <com.example.android.touch.ViewGroupA
+        android:layout_width="300dp"
+        android:background="#f00"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:background="#ff0"
+            android:orientation="vertical"
+            android:layout_height="200dp">
+
+            <com.example.android.touch.MyView
+                android:layout_width="match_parent"
+                android:background="#f0f"
+                android:layout_height="400dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#333"
+                android:layout_height="1800dp"/>
+
+        </LinearLayout>
+
+
+
+
+    </com.example.android.touch.ViewGroupA>
+
 
 </LinearLayout>
