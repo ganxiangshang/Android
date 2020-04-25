@@ -1,0 +1,4 @@
+#Wed Mar 25 16:25:51 CST 2020
+base.0=/Users/zhanghongsheng/work/androidSpace/Android_Mac/customeeventbus/build/intermediates/dex/freeChinaDebug/mergeDexFreeChinaDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
