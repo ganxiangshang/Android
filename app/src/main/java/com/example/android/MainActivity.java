@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
+        String a = "test";
+        String b = "test2";
 
 
         initView();
